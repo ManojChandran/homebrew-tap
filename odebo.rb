@@ -9,4 +9,7 @@ class Odebo < Formula
     bin install "odebo" 
   end
 
+  test do
+    system "#{bin}/odebo"
+  end
 end
